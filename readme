@@ -1,3 +1,7 @@
+===Linux===
 ~/.bashrc: bash configuration files
 ~/_vimrc: vim configuration file
 /etc/rc.local: mount Windows drive when starting up
+
+===cygwin===
+.bash_profile: bash configuration file
