@@ -115,3 +115,10 @@ PATH=$PATH:$DROPBOX:$LATEX
 export PATH
 
 #alias ls='ls -CF'
+
+# customize shell prompt. This will show "V100|13.90.241.152:{currant path}" with green color.
+# \e[ : start color scheme
+# 1;32 : Green color
+# \e[m : stop color scheme
+# or dynamic get IP $(curl ifconfig.me)
+PS1='\e[1;32mV100|13.90.241.152:$PWD > \e[m'
